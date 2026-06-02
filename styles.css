@@ -486,6 +486,7 @@
   height: 525px;
   width: 400px;
   max-width: 100%;
+  box-sizing: border-box;
   border-radius: 4px;
   background-image: linear-gradient(
       to bottom,
