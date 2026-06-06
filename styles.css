@@ -402,6 +402,9 @@
     min-height: 100vh;            /* ← full height on mobile */
     height: auto;
     padding: 20px;                /* ← reduced padding */
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: right center;    /* ← reduced padding */
   }
 
   /* ← Also update your card for mobile */
