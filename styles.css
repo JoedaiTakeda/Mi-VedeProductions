@@ -27,11 +27,11 @@
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+ /* max-width: 1300px; */
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 #navbar__logo {
@@ -50,7 +50,7 @@
 }
 
 .logo {
-  height: 30px;                /* Control the logo size here */
+  height: 45px;                /* Control the logo size here */
   width: auto;                 /* Keeps the aspect ratio perfect */
   display: block;
 }
@@ -64,6 +64,7 @@
   align-items: center;
   list-style: none;
   text-align: center;
+  margin-left: auto;
 }
 
 .navbar__item {
@@ -114,7 +115,7 @@
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -151,6 +152,12 @@
   #navbar__logo {
     padding-left: 25px;
   }
+
+  .logo {
+  height: 30px;                /* Control the logo size here */
+  width: auto;                 /* Keeps the aspect ratio perfect */
+  display: block;
+}
 
   .navbar__toggle .bar {
     width: 25px;
@@ -294,7 +301,7 @@
 
 
 /* Mobile Responsive */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .main__card {
     display: grid;
     grid-template-columns: 1fr;   /* ← cleaner than auto */
@@ -407,7 +414,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .solutions {
     height: auto;
   }
@@ -562,7 +569,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .projects {
     height: auto;
   }
@@ -699,7 +706,7 @@
   color:#DFD0B8;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .biography {
     height: auto;
   }
@@ -786,7 +793,6 @@
 }
 
 .social__media {
-  max-width: 1000px;
   width: 100%;
 }
 
@@ -794,8 +800,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  max-width: 1000px;
+  width: 95%;
   margin: 40px auto 0 auto;
 }
 
@@ -822,7 +827,7 @@
   color: #DFD0B8;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer__links {
     padding-top: 2rem;
   }
@@ -883,5 +888,3 @@
   opacity: 1 !important;
   transform: none !important;
 }
-
-
